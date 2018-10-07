@@ -60,11 +60,22 @@ a:hover {
 }
 .group1 h1 {
 	font-size: 3rem;
-	margin: 3vh 0;
+	margin: 4vh 0;
 	letter-spacing: 0.3rem;
 }
 main {
 	color: rgb( 77, 90, 107 );
+}
+main h2 {
+	padding: 3rem 1rem;
+	font-weight: bold;
+}
+main h2:after{
+	content: "";
+	display: block;
+	width: 16%;
+	border-bottom: 2px solid rgb(255, 150, 0);
+	padding-top: 5px;
 }
 .crumbs {
 	text-align: center;
@@ -76,66 +87,32 @@ main {
 .crumbs a:first-child{
 	color:rgb( 77, 90, 107 );
 }
-.gelery {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	text-align:center;
-}
-.gelery_item {
-	flex-grow: 1;
-	min-width: 180px;
-	flex-basis: 20%;
-	background-color: rgba( 77, 90, 107 , 0.12);
-	margin: 0 1rem 2rem 1rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-.gelery_item:hover {
-	transform: translateY(-4px);
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);;
-}
-.gelery_item .wrap_text {
-	padding: 0 0.5vw;
-}
-.gelery_item .wrap_text h3 {
-	margin-bottom: 5px;
-}
-.gelery_item .wrap_text p {
-	margin-top: 0;
-}
-.button {
-	border: 1px solid rgb(255, 80, 0);
-	border-radius: 30px;
-	display: inline-block;
-	transition: all 0.5s ease-in-out;
-	padding: 5px 15px;
-	width: 150px;
-	margin: 10px auto;
-}
-.button_view {
-	background-color:rgb(255, 108, 0);
-	color: #fff;
-	width: 75%;
-}
-.button_view:hover, .form_button:hover {
-	background-color: #fff;
+.crumbs a:last-child{
 	color: rgb(255, 108, 0);
-	border-radius: 10px;
 }
-.button_view_all:hover {
-	color: #fff;
-	border-radius: 10px;
-	background-color:rgb(255, 108, 0);
+.buying p {
+	padding: 0 1rem;
 }
-.button_view_all {
-	width: 200px;
-	margin: 2rem auto;
-	display: block;
-	text-align: center;
-	background-color: #fff;
-	color: rgb(255, 108, 0);
+.warranties {
+	background: #222 url(../images/bg.jpg) no-repeat center top;
+	background-size: cover;
+	height: 80vh;
+	position: relative;
+	margin-top: 6rem;
+}
+.group2 {
+	width: 36%;
+	color:#fff;
+	line-height: 2.2rem;
+	min-width: 	500px;
+	background-color: rgba(77, 90, 107, 0.3);
+	border-radius: 5px;
+	margin-left: 1rem;
+	padding: 2vh 9vh;
+	box-sizing: border-box;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 .contacts {
 	background: #222 url(../images/home_contacts.jpg) no-repeat center top;
@@ -155,9 +132,9 @@ main {
 	z-index: 100;
 	left: 1rem;
 	top: 100px;
+	overflow-y: auto;
 	font-size: 0.9rem;
 	position: absolute;
-	overflow-y: auto;
 }
 form {
 	color: #444;
@@ -202,7 +179,7 @@ form {
 	align-items: center;
 }
 
-a[href*='all_car'] {
+a[href*='buying'] {
 	color: rgb(255, 108, 0);
 }
 .footer .logo {

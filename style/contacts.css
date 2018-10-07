@@ -76,6 +76,9 @@ main {
 .crumbs a:first-child{
 	color:rgb( 77, 90, 107 );
 }
+.crumbs a:last-child{
+	color: rgb(255, 108, 0);
+}
 .gelery {
 	display: flex;
 	flex-wrap: wrap;
@@ -202,7 +205,7 @@ form {
 	align-items: center;
 }
 
-a[href*='all_car'] {
+a[href*='contacts'] {
 	color: rgb(255, 108, 0);
 }
 .footer .logo {
@@ -221,6 +224,9 @@ a[href*='all_car'] {
 	list-style: none;
 	line-height: 1.5em;
 	padding: 0;
+}
+.footer_contacts span {
+	color: #fff;
 }
 .copyright {
 	padding-bottom: 5px;

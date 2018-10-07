@@ -26,7 +26,7 @@ a {
 }
 .logo {
 	flex-basis: 16%;
-	margin: 0 8%;
+	margin-left:8%;
 	min-width: 70px;
 	align-self: center;
 }
@@ -54,7 +54,6 @@ a:hover {
 	width: 45%;
 	max-width: 	700px;
 	background-color: rgba(77, 90, 107, 0.3);
-	border-radius: 15px; 
 	padding: 1px 10px 10px 1rem;
 	position: absolute;
 	top: 50%;
@@ -135,8 +134,7 @@ main h2:after{
 	margin: 2rem auto;
 	display: block;
 	text-align: center;
-	background-color: #fff;
-	color: rgb(255, 108, 0);
+	color:rgb(255, 108, 0);
 }
  #wrapper_hide {
 	overflow: hidden;
@@ -181,6 +179,7 @@ main h2:after{
 	z-index: 100;
 	left: 1rem;
 	top: 100px;
+	overflow-y: auto;
 	font-size: 0.9rem;
 	position: absolute;
 }
@@ -217,7 +216,7 @@ form {
 	color: #fff;
 }
 .form p {
-	margin: 4vw 0;
+	margin: 7vh 0;
 }
 
 
@@ -262,12 +261,10 @@ a[href*='index'] {
 	display: block;
 	transition: all ease-in-out 0.3s;
 	opacity: 0.5;
-
 }
 .buttonUp:hover {
 	border: 2px solid #ffffb3;
 	transform: rotate(360deg) scale(1.2);
 	opacity:1;
 	box-shadow: 1px 2px 10px #99bbff;
-
 }
