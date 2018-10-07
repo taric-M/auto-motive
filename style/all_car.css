@@ -20,9 +20,9 @@ a {
 	margin: 0 auto;
 }
 .header {
-	background: #222 url(../images/header_bg1.jpg) no-repeat center top;
+	background: #222 url(../images/all_car_header_bg.jpg) no-repeat center top;
 	background-size: cover;
-	height: 100vh;
+	height: 60vh;
 }
 .logo {
 	flex-basis: 16%;
@@ -51,31 +51,30 @@ a:hover {
 	color: rgb(255, 150, 0);
 }
 .group1 {
-	width: 45%;
-	max-width: 	700px;
+	border: solid 1px rgba(77, 90, 107, 0.4);
 	background-color: rgba(77, 90, 107, 0.3);
-	border-radius: 15px; 
-	padding: 1px 10px 10px 1rem;
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
+	width: 67%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 12vh;
 }
 .group1 h1 {
 	font-size: 3rem;
+	margin: 4vh 0;
+	letter-spacing: 0.3rem;
 }
 main {
 	color: rgb( 77, 90, 107 );
 }
-main h2 {
-	padding: 3rem 1rem;
-	font-weight: bold;
+.new_cars p {
+	text-align: center;
+	padding: 1rem 0;
 }
-main h2:after{
-	content: "";
-	display: block;
-	width: 16%;
-	border-bottom: 2px solid rgb(255, 150, 0);
-	padding-top: 5px;
+.new_cars a {
+	text-transform: inherit;
+}
+.new_cars a:first-child{
+	color:rgb( 77, 90, 107 );
 }
 .gelery {
 	display: flex;
@@ -137,31 +136,6 @@ main h2:after{
 	text-align: center;
 	background-color: #fff;
 	color: rgb(255, 108, 0);
-}
- #wrapper_hide {
-	overflow: hidden;
-}
-.about_use p {
-	padding: 0 1rem;
-	line-height: 1.5rem;
-	font-weight: 600;
-}
-.about_use_text {
-	width: 51%;
-}
-.about_use_text p {
-	margin: 0;
-}
-.about_use_wrap {
-	position: relative;
-}
-.about_use_wrap img {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 55%;
-	height: 98%;
-	width: inherit;
 }
 .contacts {
 	background: #222 url(../images/home_contacts.jpg) no-repeat center top;
@@ -227,7 +201,7 @@ form {
 	align-items: center;
 }
 
-a[href*='index'] {
+a[href*='all_car'] {
 	color: rgb(255, 108, 0);
 }
 .footer .logo {
