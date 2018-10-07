@@ -9,3 +9,7 @@
         }
     });
 });
+
+window.onsubmit=function(e){
+  window.open('order.html');
+}
