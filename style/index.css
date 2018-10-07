@@ -82,7 +82,6 @@ main h2:after{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align:center;
-	overflow: hidden;
 }
 .gelery_item {
 	flex-grow: 1;
