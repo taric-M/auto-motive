@@ -43,6 +43,9 @@
     .group2 {
         width: 70%;
     }
+    .form {
+        height: 635px;
+    }
     .header .logo {
         position: absolute;
         top: 55px;
