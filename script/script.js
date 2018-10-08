@@ -22,7 +22,7 @@ for(let i = 0; i < items.length; i++ ) {
             el.currentTarget.parentElement.setAttribute("class", "gelery_item");
             el.target.innerHTML = 'ПЕРЕГЛЯНУТИ';
         }else{
-            el.target.parentElement.setAttribute("class", "go");
+            el.target.parentElement.setAttribute("class", "big_size");
             el.target.innerHTML = 'ЗАКРИТИ';
         }
     

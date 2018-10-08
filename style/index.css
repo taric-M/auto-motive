@@ -270,3 +270,14 @@ a[href*='index'] {
 	opacity:1;
 	box-shadow: 1px 2px 10px #99bbff;
 }
+.big_size{
+	position: fixed;
+	width: 50vw;
+	left:0;
+	right: 0;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 100;
+	background-color: black;
+}
