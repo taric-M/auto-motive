@@ -1,30 +1,33 @@
 .header {
 	background: #222 url(../images/error.jpg) no-repeat center center;
+	background-size: cover;
 	height: 100vh;
 }
 .container_group1 {
 	display: flex;
 	justify-content:flex-end;
-	margin-top: 15vh;
+	align-items: center;
+	transform: translateY(-70px);
 }
 .group1 {
 	width: 40%;
 	text-align: center;
 	font-weight: 900;
 }
-.group1 h1 {
+.group1 h2 {
 	font-size: 8rem;
 	margin:0;
 	letter-spacing: 0.3rem;
 	line-height: 9rem;
 }
-.group1 h2 {
+.group1 h4 {
 	font-size: 4rem;
 	margin:0;
 }
 .button {
 	background-color:rgb(255, 108, 0);
 	color: #fff;
+	width: 120px;
 }
 .button:hover{
 	color: rgb(255, 80, 0);

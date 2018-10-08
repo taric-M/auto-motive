@@ -1,0 +1,92 @@
+@media screen  and (max-width: 1050px) {
+    .group1 h1 {
+	    font-size: 2.5rem;
+    }
+    .about_use_wrap img{
+        left: 1rem;
+        opacity: 0.4;
+    }
+    .group1 h1 {
+	    font-size: 2.5rem;
+    }
+    .about_use_text {
+        padding: 2vh 0;
+        width: 80%;
+        color:#000;
+        margin: 0 auto;
+    }
+}
+@media screen  and (max-width: 880px) {
+    html {
+        font-size: 0.75rem;
+    }
+}
+@media screen  and (max-width: 664px) {
+    .container {
+	    max-width: 95%;
+    }
+    .group1 {
+        font-size: 0.57rem;
+        width: 50%;
+    }
+    .group2 {
+        width: 50%;
+    }
+    .buttonUp {
+        transform: scale(0.8);
+    }
+}
+@media screen  and (max-width: 590px) {
+    .group1 h1 {
+	    font-size: 1.5rem;
+    }
+    .group2 {
+        width: 70%;
+    }
+    .header .logo {
+        position: absolute;
+        top: 55px;
+        left: -10px;
+	    width: 14%;
+	    opacity: 0.6;
+    }
+    .nav .container {
+    	justify-content: center;
+    	min-height: 4rem;
+    }
+    .nav_items {
+	    margin-right: 2vw;
+    }
+    .big_size {
+        width: 88vw;
+    }
+}
+@media screen  and (max-width: 370px) {
+    html {
+        font-size: 0.6rem;
+    }
+    .group2 {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}

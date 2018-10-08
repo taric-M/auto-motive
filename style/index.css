@@ -26,9 +26,9 @@
 .about_use_text {
 	width: 51%;
 }
-.about_use_text p {
+/*about_use_text p {
 	margin: 0;
-}
+}*/
 .about_use_wrap {
 	position: relative;
 }

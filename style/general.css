@@ -29,6 +29,7 @@ a:hover {
 	margin-left:8%;
 	min-width: 70px;
 	align-self: center;
+	padding: 0.5rem 0;
 }
 .nav {
 	background-color: rgba(77, 90, 107, 0.3);
@@ -150,8 +151,7 @@ main h2:after{
 	background-color: rgba(77, 90, 107, 0.3);
 	border-radius: 5px;
 	color: #fff;
-	z-index: 100;
-	left: 1rem;
+	margin: 0 1rem;
 	top: 100px;
 	overflow-y: auto;
 	font-size: 0.9rem;
@@ -194,22 +194,24 @@ form {
 }
 .footer .container {
 	display: flex;
-	justify-content: space-between;
+	flex-wrap:wrap;
+	justify-content: space-around;
 	align-items: center;
+	margin: 40px auto;
+	text-align: left;
+	font-size: 0.8rem;
+	line-height: 1.7em;
 }
 .footer .logo {
 	flex-basis: 32%;
+}
+.footer_nav {
+	margin: 0 20px;
 }
 .footer {
 	background-color: rgb(77, 90, 107);
 	border-top: solid 1px lightgrey;
 	text-align: center;
-}
-.footer .container {
-	margin: 40px auto;
-	text-align: left;
-	font-size: 0.8rem;
-	line-height: 1.7em;
 }
 .footer ul {
 	list-style: none;
