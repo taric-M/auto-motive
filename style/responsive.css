@@ -32,9 +32,6 @@
     .group2 {
         width: 50%;
     }
-    .buttonUp {
-        transform: scale(0.8);
-    }
 }
 @media screen  and (max-width: 590px) {
     .group1 h1 {
