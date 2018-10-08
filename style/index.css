@@ -118,6 +118,7 @@ main h2:after{
 	background-color:rgb(255, 108, 0);
 	color: #fff;
 	width: 75%;
+	cursor: pointer;
 }
 .button_view:hover, .form_button:hover {
 	background-color: #fff;

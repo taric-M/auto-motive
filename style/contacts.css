@@ -151,11 +151,14 @@ form {
 	background-color: rgb(255, 108, 0);
 	color: #fff;
 }
+.form_button:hover {
+	background-color: #fff;
+	color: rgb(255, 108, 0);
+	border-radius: 10px;
+}
 .form p {
 	margin: 7vh 0;
 }
-
-
 .footer .container {
 	display: flex;
 	justify-content: space-between;
