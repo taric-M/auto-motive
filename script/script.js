@@ -9,12 +9,6 @@
         }
     });
 });
-
-window.onsubmit=function(e){
-  window.open('order.html');
-}
-
-
 const items = document.getElementsByClassName('button_view');
 for(let i = 0; i < items.length; i++ ) {
     items[i].onclick = el=>{
